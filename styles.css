@@ -6,7 +6,7 @@ h1
 }
 body
 {
-	background-image: url(123.jpg);
+	background-image: url(фон.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment:fixed;
