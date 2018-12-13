@@ -1,4 +1,4 @@
-﻿function $() 
+function $() 
 { var elements = new Array(); 
 for (var i = 0; i < arguments.length; i++) 
 { var element = arguments[i]; 
@@ -25,7 +25,7 @@ function f2()
 {
 var firstya = new Date(2018,00,1);
 t=today.getTime()-firstya.getTime();
-$('tx3').value=parseInt(t/1000/60/60/24)+1;
+$('tx3').value=parseInt(t/1000/60/60/24);
 }
 function f3()
 {
