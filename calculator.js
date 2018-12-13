@@ -25,7 +25,7 @@ function f2()
 {
 var firstya = new Date(2018,00,1);
 t=today.getTime()-firstya.getTime();
-$('tx3').value=parseInt(t/1000/60/60/24);
+$('tx3').value=parseInt(t/1000/60/60/24)+1;
 }
 function f3()
 {
