@@ -14,7 +14,7 @@ function f2()
 {       K=parseFloat($('tx2').value);
 	N=parseFloat($('tx1').value);
 S=1;
-for(i=2;i<=N;i++)
+for(i=1;i<=N;i++)
 {a=i;
 a=Math.pow(a,K); 
 S=S+a;
