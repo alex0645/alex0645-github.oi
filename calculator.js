@@ -18,7 +18,7 @@ $("tx1").value=$("tx1").value+x;
 function f1()
 {
 var newyear = new Date(2018,11,31);
-t=newyear.getTime()-today.getTime();
+t=newyear.getTime()-today.getTime()+1;
 $('tx2').value=parseInt(t/1000/60/60/24);
 }
 function f2()
