@@ -1,4 +1,4 @@
-﻿﻿﻿function $() 
+﻿function $() 
 { var elements = new Array(); 
 for (var i = 0; i < arguments.length; i++) 
 { var element = arguments[i]; 
@@ -107,4 +107,3 @@ today.setYear(x);
 $('tx6').value=today;
 $('tx1').value='';
 }
-
